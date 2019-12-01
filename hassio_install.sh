@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -o xtrace
 
 ARCH=$(uname -m)
 DOCKER_BINARY=/usr/bin/docker
